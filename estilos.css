@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playwrite+PL:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {box-sizing: border-box;}
+
+header, footer{
+text-align: center;
+background-image: url(../imagenes/fondo.png);
+background-size: 700px, 500px;
+background-position: 200px, 200px;
+margin-left: 80px;
+margin-right: 80px;
+border-radius: 0px;
+}
+
+header{
+padding: 2%;
+}
+
+footer{
+margin-top: 50px;
+padding: 50px;
+color: #000000;
+font-family: 'Libre Baskerville';
+font-weight: 800;
+font-size: 18px;
+
+}
+
+h1{
+color: #000000;
+font-family: 'Roboto';
+font-weight: 1500;
+font-style: normal;
+animation-name: animacionh1;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes animacionh1{
+
+from{
+color:#9724ab;
+    }
+to{
+color: #000000;
+    }
+}
+
+h2{
+color:#000000;
+font-weight: 400;
+font-family:'Libre Baskerville';
+font-size: 30px;
+margin-top: -10px;
+
+}
+
+
+body{
+background-color: #000000;;
+}
+
+#Linkedin{
+text-decoration: none;
+background-color: #9724ab;;
+color: #000000;
+font-family: 'Libre Baskerville';
+font-weight: 300;
+font-size: 20px;
+display: block;
+width: 150px;
+height: 40px;
+line-height: 40px;
+border-radius: 5px;
+display: inline-block;
+    
+}
+
+#Linkedin:hover{
+color:#9724ab;
+background-color: #000000;
+transform: scale(1.0);
+}
+
+div {   
+width: 45%;
+ }
+    
+img { width: 105%; }
+    
+
+main{
+width: 95%;
+margin: auto; 
+margin-top: 50px; 
+display: flex; 
+justify-content: space-between; 
+flex-wrap: wrap;
+}
+
+video
+
+{
+    
+width: 60%;
+display: block;
+margin: auto;
+border: solid #9724ab;
+}
